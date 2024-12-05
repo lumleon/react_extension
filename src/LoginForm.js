@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'datatables.net-bs5/css/dataTables.bootstrap5.min.css';
-import $ from 'jquery';
-import 'datatables.net';
-import 'datatables.net-bs5';
+// import 'datatables.net-bs5/css/dataTables.bootstrap5.min.css';
+// import $ from 'jquery';
+// import 'datatables.net';
+// import 'datatables.net-bs5';
 
 const LoginForm = () => {
   const [username, setUsername] = useState('');
